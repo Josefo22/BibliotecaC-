@@ -13,3 +13,19 @@ C:\Users\Maria Alejandra\OneDrive - IUE\Documents\POO\Clase2\obj\Debug\Clase2.Fo
 C:\Users\Maria Alejandra\OneDrive - IUE\Documents\POO\Clase2\obj\Debug\Clase2.Formularios.frmPrestamo.resources
 C:\Users\Maria Alejandra\OneDrive - IUE\Documents\POO\Clase2\obj\Debug\Clase2.Formularios.fmInformePrestamo.resources
 C:\Users\Maria Alejandra\OneDrive - IUE\Documents\POO\Clase2\obj\Debug\Clase2.Formularios.frmInformeEstudiante.resources
+C:\Users\ASUS\Desktop\POO\Clase2\bin\Debug\Clase2.exe.config
+C:\Users\ASUS\Desktop\POO\Clase2\bin\Debug\Clase2.exe
+C:\Users\ASUS\Desktop\POO\Clase2\bin\Debug\Clase2.pdb
+C:\Users\ASUS\Desktop\POO\Clase2\obj\Debug\Clase2.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\POO\Clase2\obj\Debug\Clase2.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Desktop\POO\Clase2\obj\Debug\Clase2.Formularios.fmInformePrestamo.resources
+C:\Users\ASUS\Desktop\POO\Clase2\obj\Debug\Clase2.frmEstudiante.resources
+C:\Users\ASUS\Desktop\POO\Clase2\obj\Debug\Clase2.Formularios.frmInformeEstudiante.resources
+C:\Users\ASUS\Desktop\POO\Clase2\obj\Debug\Clase2.Formularios.frmLibro.resources
+C:\Users\ASUS\Desktop\POO\Clase2\obj\Debug\Clase2.Formularios.frmmenu.resources
+C:\Users\ASUS\Desktop\POO\Clase2\obj\Debug\Clase2.Formularios.frmPrestamo.resources
+C:\Users\ASUS\Desktop\POO\Clase2\obj\Debug\Clase2.Properties.Resources.resources
+C:\Users\ASUS\Desktop\POO\Clase2\obj\Debug\Clase2.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\POO\Clase2\obj\Debug\Clase2.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\POO\Clase2\obj\Debug\Clase2.exe
+C:\Users\ASUS\Desktop\POO\Clase2\obj\Debug\Clase2.pdb

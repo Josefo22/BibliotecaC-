@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\bin",
     "\\Clases",
     "\\Formularios"
   ],
-  "SelectedNode": "\\Clases\\cConexion.cs",
+  "SelectedNode": "\\Formularios\\fmInformePrestamo.cs",
   "PreviewInSolutionExplorer": false
 }
