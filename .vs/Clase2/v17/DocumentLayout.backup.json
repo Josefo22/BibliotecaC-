@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmLibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|solutionrelative:Formularios\\frmLibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\formularios\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|solutionrelative:formularios\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\formularios\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|solutionrelative:formularios\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmLibro.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|solutionrelative:Formularios\\frmLibro.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|c:\\users\\maria alejandra\\onedrive - iue\\documents\\poo\\clase2\\formularios\\frmprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|solutionrelative:formularios\\frmprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|c:\\users\\maria alejandra\\onedrive - iue\\documents\\poo\\clase2\\formularios\\frmprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|solutionrelative:formularios\\frmprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\formularios\\frminforme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|solutionrelative:formularios\\frminforme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|c:\\users\\maria alejandra\\onedrive - iue\\documents\\poo\\clase2\\clases\\cconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|solutionrelative:clases\\cconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\formularios\\frmestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|solutionrelative:formularios\\frmestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\formularios\\frmlibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|solutionrelative:formularios\\frmlibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmEstudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51B0672-32BA-451E-BFDC-84BD5A3A9047}|Clase2.csproj|solutionrelative:Formularios\\frmEstudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmPrestamo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmPrestamo.cs",
+              "RelativeDocumentMoniker": "Formularios\\frmPrestamo.cs",
+              "ToolTip": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmPrestamo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\frmPrestamo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T19:08:26.243Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmPrestamo.cs",
+              "DocumentMoniker": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmPrestamo.cs",
+              "RelativeDocumentMoniker": "Formularios\\frmPrestamo.cs",
+              "ToolTip": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmPrestamo.cs",
+              "RelativeToolTip": "Formularios\\frmPrestamo.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwB0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T19:36:08.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T21:50:02.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmInforme.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmInforme.cs",
+              "RelativeDocumentMoniker": "Formularios\\frmInforme.cs",
+              "ToolTip": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmInforme.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\frmInforme.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:36:37.081Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmLibro.cs",
+              "DocumentMoniker": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmLibro.cs",
+              "RelativeDocumentMoniker": "Formularios\\frmLibro.cs",
+              "ToolTip": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmLibro.cs",
+              "RelativeToolTip": "Formularios\\frmLibro.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAWwM8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T20:44:12.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmmenu.cs",
+              "DocumentMoniker": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmmenu.cs",
+              "RelativeDocumentMoniker": "Formularios\\frmmenu.cs",
+              "ToolTip": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmmenu.cs",
+              "RelativeToolTip": "Formularios\\frmmenu.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAD4v2IAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T19:52:38.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmmenu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmmenu.cs",
+              "RelativeDocumentMoniker": "Formularios\\frmmenu.cs",
+              "ToolTip": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmmenu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\frmmenu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T19:16:50.929Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "cConexion.cs",
+              "DocumentMoniker": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Clases\\cConexion.cs",
+              "RelativeDocumentMoniker": "Clases\\cConexion.cs",
+              "ToolTip": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Clases\\cConexion.cs",
+              "RelativeToolTip": "Clases\\cConexion.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T19:57:11.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmLibro.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmLibro.Designer.cs",
+              "RelativeDocumentMoniker": "Formularios\\frmLibro.Designer.cs",
+              "ToolTip": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmLibro.Designer.cs",
+              "RelativeToolTip": "Formularios\\frmLibro.Designer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T23:15:45.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmEstudiante.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmEstudiante.cs",
+              "RelativeDocumentMoniker": "Formularios\\frmEstudiante.cs",
+              "ToolTip": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmEstudiante.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\frmEstudiante.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T21:45:08.06Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmLibro.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmLibro.cs",
+              "RelativeDocumentMoniker": "Formularios\\frmLibro.cs",
+              "ToolTip": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmLibro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\frmLibro.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T21:45:37.773Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmEstudiante.cs",
+              "DocumentMoniker": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmEstudiante.cs",
+              "RelativeDocumentMoniker": "Formularios\\frmEstudiante.cs",
+              "ToolTip": "C:\\Users\\Maria Alejandra\\OneDrive - IUE\\Documents\\POO\\Clase2\\Formularios\\frmEstudiante.cs",
+              "RelativeToolTip": "Formularios\\frmEstudiante.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAiwLEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T19:37:40.7Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
