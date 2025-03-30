@@ -63,6 +63,66 @@ namespace Clase2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1490971308_map_icons_7_82746 {
+            get {
+                object obj = ResourceManager.GetObject("1490971308-map-icons-7_82746", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1490971308_map_icons_7_827461 {
+            get {
+                object obj = ResourceManager.GetObject("1490971308-map-icons-7_827461", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1490971308_map_icons_7_827462 {
+            get {
+                object obj = ResourceManager.GetObject("1490971308-map-icons-7_827462", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1490971308_map_icons_7_827463 {
+            get {
+                object obj = ResourceManager.GetObject("1490971308-map-icons-7_827463", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1490971308_map_icons_7_827464 {
+            get {
+                object obj = ResourceManager.GetObject("1490971308-map-icons-7_827464", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1490971308_map_icons_7_827465 {
+            get {
+                object obj = ResourceManager.GetObject("1490971308-map-icons-7_827465", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bibliotecaimagen {
             get {
                 object obj = ResourceManager.GetObject("bibliotecaimagen", resourceCulture);

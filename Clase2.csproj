@@ -53,11 +53,23 @@
     <Compile Include="Formularios\fmInformePrestamo.Designer.cs">
       <DependentUpon>fmInformePrestamo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FrmAutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmAutor.Designer.cs">
+      <DependentUpon>FrmAutor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\frmEstudiante.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\frmEstudiante.Designer.cs">
       <DependentUpon>frmEstudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmInformeAutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmInformeAutor.Designer.cs">
+      <DependentUpon>FrmInformeAutor.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\frmInformeEstudiante.cs">
       <SubType>Form</SubType>
@@ -70,6 +82,12 @@
     </Compile>
     <Compile Include="Formularios\frmLibro.Designer.cs">
       <DependentUpon>frmLibro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmLibroPorAutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmLibroPorAutor.Designer.cs">
+      <DependentUpon>FrmLibroPorAutor.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\frmmenu.cs">
       <SubType>Form</SubType>
@@ -105,14 +123,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -126,11 +138,10 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <None Include="Resources\fotocalculadora.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bibliotecaimagen.jpg" />
+    <None Include="Resources\1490971308-map-icons-7_827461.png" />
+    <Content Include="Resources\4213449-building-college-education-library-school-university_115404.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

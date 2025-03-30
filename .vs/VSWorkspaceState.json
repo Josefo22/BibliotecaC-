@@ -3,8 +3,9 @@
     "",
     "\\bin",
     "\\Clases",
-    "\\Formularios"
+    "\\Formularios",
+    "\\Properties"
   ],
-  "SelectedNode": "\\Formularios\\fmInformePrestamo.cs",
+  "SelectedNode": "\\Properties\\Resources.resx",
   "PreviewInSolutionExplorer": false
 }

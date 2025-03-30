@@ -19,14 +19,99 @@ namespace Clase2
         SqlCommand cmd;
         DataTable dt;
         int i, contador, boton;
+        
         public frmEstudiante()
         {
             InitializeComponent();
+            this.MaximizeBox = false;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.StartPosition = FormStartPosition.CenterScreen;
+            ConfigurarDiseno();
+            
             cn = new cConexion();//instanciar el objeto
             cmd = new SqlCommand("Select * from tblEstudiante", cn.AbrirConexion());
             da = new SqlDataAdapter(cmd);
             dt = new DataTable();
             da.Fill(dt);
+        }
+        
+        private void ConfigurarDiseno()
+        {
+            // Configuración de colores y estilos
+            this.BackColor = Color.White;
+            
+            // Panel de título
+            panelTitulo.BackColor = Color.MediumPurple;
+            lblTituloForm.Font = new Font("Segoe UI", 20, FontStyle.Bold);
+            lblTituloForm.ForeColor = Color.White;
+            
+            // Panel de botones
+            panelBotones.BackColor = Color.Lavender;
+            
+            // Configuración de los botones principales
+            ConfigurarBoton(btnIngreso, Color.RoyalBlue);
+            ConfigurarBoton(btnConsulta, Color.SeaGreen);
+            ConfigurarBoton(btnModifica, Color.DarkOrange);
+            ConfigurarBoton(btnRetiro, Color.Crimson);
+            ConfigurarBoton(btnGuardar, Color.ForestGreen);
+            
+            // Configuración de botones de navegación
+            ConfigurarBotonNavegacion(btnPrimero);
+            ConfigurarBotonNavegacion(btnAnterior);
+            ConfigurarBotonNavegacion(btnSiguiente);
+            ConfigurarBotonNavegacion(btnUltimo);
+            
+            // Configuración de etiquetas
+            ConfigurarEtiqueta(lblCarnet);
+            ConfigurarEtiqueta(lblNombre);
+            ConfigurarEtiqueta(lblEmail);
+            ConfigurarEtiqueta(lblPrograma);
+            
+            // Configurar cajas de texto
+            ConfigurarCajaTexto(txtCarnet);
+            ConfigurarCajaTexto(txtNombre);
+            ConfigurarCajaTexto(txtEmail);
+            ConfigurarCajaTexto(txtPrograma);
+            
+            // Deshabilitar campos al inicio
+            deshabilita();
+            
+            // Ajustar panel de datos
+            panelDatos.BackColor = Color.WhiteSmoke;
+            panelDatos.BorderStyle = BorderStyle.FixedSingle;
+        }
+        
+        private void ConfigurarBoton(Button btn, Color color)
+        {
+            btn.BackColor = color;
+            btn.FlatStyle = FlatStyle.Flat;
+            btn.FlatAppearance.BorderSize = 0;
+            btn.Font = new Font("Segoe UI", 11, FontStyle.Bold);
+            btn.ForeColor = Color.White;
+            btn.Cursor = Cursors.Hand;
+        }
+        
+        private void ConfigurarBotonNavegacion(Button btn)
+        {
+            btn.BackColor = Color.SlateBlue;
+            btn.FlatStyle = FlatStyle.Flat;
+            btn.FlatAppearance.BorderSize = 0;
+            btn.Font = new Font("Segoe UI", 12, FontStyle.Bold);
+            btn.ForeColor = Color.White;
+            btn.Cursor = Cursors.Hand;
+        }
+        
+        private void ConfigurarEtiqueta(Label lbl)
+        {
+            lbl.Font = new Font("Segoe UI", 10, FontStyle.Regular);
+            lbl.ForeColor = Color.DarkSlateBlue;
+        }
+        
+        private void ConfigurarCajaTexto(TextBox txt)
+        {
+            txt.Font = new Font("Segoe UI", 10, FontStyle.Regular);
+            txt.BorderStyle = BorderStyle.FixedSingle;
+            txt.BackColor = Color.White;
         }
 
         void llenar(DataTable dt, int i)
@@ -62,11 +147,6 @@ namespace Clase2
             txtEmail.Enabled = false;
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnPrimero_Click(object sender, EventArgs e)
         {
             i = 0;
@@ -81,11 +161,11 @@ namespace Clase2
 
         private void btnAnterior_Click(object sender, EventArgs e)
         {
-            i = 0;
-            if (i == -1)
+            i--;
+            if (i < 0)
             {
-                MessageBox.Show("Llegaste al primer registro");
-                i++;
+                MessageBox.Show("Llegaste al primer registro", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                i = 0;
             }
             llenar(dt, i);
         }
@@ -95,7 +175,7 @@ namespace Clase2
             i++;
             if (i == contador)
             {
-                MessageBox.Show("Ultimo Registro");
+                MessageBox.Show("Último Registro", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 i--;
             }
             llenar(dt, i);
@@ -135,43 +215,78 @@ namespace Clase2
 
         private void txtCarnet_Leave(object sender, EventArgs e)
         {
-            cmd = new SqlCommand("select * from tblEstudiante where carnet='" + txtCarnet.Text + "'", cn.AbrirConexion());
-            da = new SqlDataAdapter(cmd);
-            dt = new DataTable();
-            da.Fill(dt);
-
-
-            if (boton == 1)//ingreso
+            if (!string.IsNullOrEmpty(txtCarnet.Text))
             {
-                if (dt.Rows.Count > 0)
-                {
-                    MessageBox.Show("El estudiante ya existe");
-                }
-            }
+                cmd = new SqlCommand("select * from tblEstudiante where carnet='" + txtCarnet.Text + "'", cn.AbrirConexion());
+                da = new SqlDataAdapter(cmd);
+                dt = new DataTable();
+                da.Fill(dt);
 
-
-            if (boton == 2 || boton == 3)//consulta
-            {
-                if (dt.Rows.Count > 0)
+                if (boton == 1) // Ingreso
                 {
-                    llenar(dt, 0);
-                }
-                else
-                {
-                    MessageBox.Show("El estudiante no existe");
-                }
-
-            }
-
-            if (boton == 4)
-            {
-                if (dt.Rows.Count > 0)
-                {
-                    llenar(dt, 0);
-                    if (MessageBox.Show("Desea borrar el estudiante?", "Peligro", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    if (dt.Rows.Count > 0)
                     {
-                        SqlCommand cm = new SqlCommand("delete from tblEstudiante where carnet = '" + txtCarnet.Text + "'", cn.AbrirConexion());
-                        cm.ExecuteNonQuery();
+                        MessageBox.Show("El estudiante ya existe en la base de datos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        txtCarnet.Clear();
+                        txtCarnet.Focus();
+                    }
+                }
+                else if (boton == 2 || boton == 3) // Consulta o modificación
+                {
+                    if (dt.Rows.Count > 0)
+                    {
+                        llenar(dt, 0);
+                        if (boton == 3) // Si es modificación, habilitar campos
+                        {
+                            txtNombre.Enabled = true;
+                            txtEmail.Enabled = true;
+                            txtPrograma.Enabled = true;
+                            txtNombre.Focus();
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("El estudiante no existe en la base de datos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        txtCarnet.Clear();
+                        txtCarnet.Focus();
+                    }
+                }
+                else if (boton == 4) // Retiro/Eliminación
+                {
+                    if (dt.Rows.Count > 0)
+                    {
+                        llenar(dt, 0);
+                        if (MessageBox.Show("¿Está seguro que desea eliminar este estudiante?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                        {
+                            try
+                            {
+                                SqlCommand cm = new SqlCommand("delete from tblEstudiante where carnet = '" + txtCarnet.Text + "'", cn.AbrirConexion());
+                                cm.ExecuteNonQuery();
+                                MessageBox.Show("Estudiante eliminado correctamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                limpiar();
+                                
+                                // Actualizar la tabla
+                                cmd = new SqlCommand("Select * from tblEstudiante", cn.AbrirConexion());
+                                da = new SqlDataAdapter(cmd);
+                                dt = new DataTable();
+                                da.Fill(dt);
+                                if (dt.Rows.Count > 0)
+                                {
+                                    i = 0;
+                                    llenar(dt, i);
+                                }
+                            }
+                            catch (Exception ex)
+                            {
+                                MessageBox.Show("Error al eliminar el estudiante: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("El estudiante no existe en la base de datos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        txtCarnet.Clear();
+                        txtCarnet.Focus();
                     }
                 }
             }
@@ -179,33 +294,88 @@ namespace Clase2
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            if (boton == 1)
+            try
             {
-                cmd = new SqlCommand("insert into tblEstudiante values('" + txtCarnet.Text + "'" + txtNombre.Text + txtEmail.Text + "','" + txtPrograma.Text + "')", cn.AbrirConexion());
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Estudiante creado");
+                if (boton == 1)
+                {
+                    if (ValidarCampos())
+                    {
+                        cmd = new SqlCommand("insert into tblEstudiante values('" + txtCarnet.Text + "','" + txtNombre.Text + "','" + txtEmail.Text + "','" + txtPrograma.Text + "')", cn.AbrirConexion());
+                        cmd.ExecuteNonQuery();
+                        MessageBox.Show("Estudiante guardado correctamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        limpiar();
+                        deshabilita();
+                        
+                        // Actualizar la tabla
+                        cmd = new SqlCommand("Select * from tblEstudiante", cn.AbrirConexion());
+                        da = new SqlDataAdapter(cmd);
+                        dt = new DataTable();
+                        da.Fill(dt);
+                        i = dt.Rows.Count - 1;
+                        llenar(dt, i);
+                    }
+                }
+                else if (boton == 3)
+                {
+                    if (ValidarCampos())
+                    {
+                        cmd = new SqlCommand("update tblEstudiante set nombre='" + txtNombre.Text + "', e_mail='" + txtEmail.Text + "', programa='" + txtPrograma.Text + "' where carnet='" + txtCarnet.Text + "'", cn.AbrirConexion());
+                        cmd.ExecuteNonQuery();
+                        MessageBox.Show("Estudiante actualizado correctamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        limpiar();
+                        deshabilita();
+                        
+                        // Actualizar la tabla
+                        cmd = new SqlCommand("Select * from tblEstudiante", cn.AbrirConexion());
+                        da = new SqlDataAdapter(cmd);
+                        dt = new DataTable();
+                        da.Fill(dt);
+                        llenar(dt, i);
+                    }
+                }
             }
-
-            if (boton == 3 )
+            catch (Exception ex)
             {
-                cmd = new SqlCommand("update tblEstudiante set nombre='" + txtNombre.Text + "', programa='" + txtPrograma.Text + "',e_mail='" + txtEmail.Text + "')", cn.AbrirConexion());
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Estudiante modificado");
-
+                MessageBox.Show("Error al procesar la operación: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-
-
+        
+        private bool ValidarCampos()
+        {
+            if (string.IsNullOrEmpty(txtCarnet.Text))
+            {
+                MessageBox.Show("El carnet no puede estar vacío", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtCarnet.Focus();
+                return false;
+            }
+            
+            if (string.IsNullOrEmpty(txtNombre.Text))
+            {
+                MessageBox.Show("El nombre no puede estar vacío", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtNombre.Focus();
+                return false;
+            }
+            
+            if (string.IsNullOrEmpty(txtEmail.Text))
+            {
+                MessageBox.Show("El email no puede estar vacío", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtEmail.Focus();
+                return false;
+            }
+            
+            return true;
+        }
 
         private void frmEstudiante_Load(object sender, EventArgs e)
         {
-            llenar(dt, i);
+            if (dt.Rows.Count > 0)
+            {
+                llenar(dt, i);
+            }
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
+        // Eliminar métodos de eventos que no hacen nada
+        private void label1_Click(object sender, EventArgs e) { }
+        private void label2_Click(object sender, EventArgs e) { }
     }
 }

@@ -121,7 +121,25 @@
   <data name="fotocalculadora" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fotocalculadora.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="1490971308-map-icons-7_827463" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1490971308-map-icons-7_827461.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1490971308-map-icons-7_827464" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1490971308-map-icons-7_827463.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1490971308-map-icons-7_82746" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1490971308-map-icons-7_82746.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bibliotecaimagen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bibliotecaimagen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1490971308-map-icons-7_827461" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1490971308-map-icons-7_827461.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1490971308-map-icons-7_827462" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1490971308-map-icons-7_827462.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1490971308-map-icons-7_827465" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1490971308-map-icons-7_827464.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
